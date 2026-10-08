@@ -1,0 +1,87 @@
+### Documents ###
+*.pdf
+
+### Python ###
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+### Virtual environments ###
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+### Environment / secrets ###
+.env
+.env.*
+!.env.example
+
+### Testing / tooling caches ###
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+coverage.xml
+htmlcov/
+
+### Jupyter ###
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+### ML data (large, keep out of git; use DVC / Git LFS / a download script) ###
+data/raw/
+data/processed/
+datasets/
+*.csv
+*.parquet
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+### ML models and checkpoints ###
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.pb
+*.joblib
+
+### Experiment tracking and logs ###
+runs/
+logs/
+lightning_logs/
+tensorboard/
+wandb/
+mlruns/
+outputs/
+*.log
+
+### IntelliJ / PyCharm ###
+.idea/workspace.xml
+.idea/shelf/
+.idea/httpRequests/
+.idea/dataSources/
+.idea/dataSources.local.xml
+*.iws
+
+### VS Code ###
+.vscode/
+
+### OS files ###
+.DS_Store
+Thumbs.db
